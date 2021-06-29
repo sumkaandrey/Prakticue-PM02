@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane accessibleText="1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="700.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerAssortment">
+   <children>
+      <AnchorPane prefHeight="71.0" prefWidth="700.0" style="-fx-background-color: #000000;" />
+      <ImageView fitHeight="145.0" fitWidth="229.0" layoutX="35.0" layoutY="97.0">
+         <image>
+            <Image url="@images/product5.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="63.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nike Mercurial Superfly 8" wrappingWidth="174.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Футбольные бусты" wrappingWidth="174.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button fx:id="Tovar1" layoutX="80.0" layoutY="242.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" text="Подробнее" />
+      <Text layoutX="281.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nike HYPERVENOV FG" wrappingWidth="174.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="281.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Футбольные бусты" wrappingWidth="174.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button fx:id="Tovar2" layoutX="297.0" layoutY="248.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" text="Подробнее" />
+      <ImageView fitHeight="132.0" fitWidth="200.0" layoutX="268.0" layoutY="78.0">
+         <image>
+            <Image url="@../../../../Desktop/мусор/web/images/product-slide/хайп1.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="476.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nike HYPERVENOV FG" wrappingWidth="174.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="476.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Футбольные бусты" wrappingWidth="174.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button fx:id="Tovar3" layoutX="492.0" layoutY="247.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" text="Подробнее" />
+      <ImageView fitHeight="126.0" fitWidth="206.0" layoutX="470.0" layoutY="84.0">
+         <image>
+            <Image url="@images/product4.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
